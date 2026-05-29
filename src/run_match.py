@@ -29,7 +29,11 @@ def run():
         path="IRL.csv",
         season=2026,
     )
+    df = load_matches("IRL.csv")
+    season_df = current_season_matches(df, 2026)
 
+    print(f"2026 matches used: {len(season_df)}")
+    print()
     home_xg = model["home_xg"]
     away_xg = model["away_xg"]
 
