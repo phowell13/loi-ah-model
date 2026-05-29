@@ -1,6 +1,10 @@
 import pandas as pd
 
-from ratings import build_match_model
+from ratings import (
+    build_match_model,
+    load_matches,
+    current_season_matches
+)
 from poisson_model import goal_difference_probs, match_probs
 from asian_handicap import fair_odds_for_handicap, ah_expected_return
 
