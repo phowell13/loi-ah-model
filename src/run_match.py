@@ -11,12 +11,6 @@ BETFAIR_LINES = [
     {"selection": "Drogheda", "handicap": -0.5, "market_odds": 1.96},
     {"selection": "Drogheda", "handicap": -0.75, "market_odds": 2.27},
     {"selection": "Drogheda", "handicap": -1.0, "market_odds": 2.87},
-
-    {"selection": "Waterford", "handicap": 0.0, "market_odds": 3.04},
-    {"selection": "Waterford", "handicap": 0.25, "market_odds": 2.32},
-    {"selection": "Waterford", "handicap": 0.5, "market_odds": 1.98},
-    {"selection": "Waterford", "handicap": 0.75, "market_odds": 1.72},
-    {"selection": "Waterford", "handicap": 1.0, "market_odds": 1.46},
 ]
 
 
