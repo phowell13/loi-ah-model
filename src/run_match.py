@@ -19,6 +19,13 @@ def away_handicap_to_home_handicap(away_handicap):
 
 
 def run():
+     print("TEST EDIT IS RUNNING")
+
+    df = load_matches("IRL.csv")
+    season_df = current_season_matches(df, 2026)
+
+    print(f"2026 matches used: {len(season_df)}")
+    print()
     model = build_match_model(
         home_team="Drogheda",
         away_team="Waterford",
