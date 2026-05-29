@@ -19,6 +19,7 @@ def away_handicap_to_home_handicap(away_handicap):
 
 
 def run():
+     print("PHILIP TEST 123")
      print("TEST EDIT IS RUNNING")
 
     df = load_matches("IRL.csv")
