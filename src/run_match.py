@@ -44,6 +44,10 @@ def run():
     print(f"Draw:     {probs['draw']:.2%}")
     print(f"Away win: {probs['away_win']:.2%}\n")
 
+    print("Sanity check:")
+    print(f"Total probability = {probs['home_win'] + probs['draw'] + probs['away_win']:.4f}")
+    print()
+
     gd_probs = goal_difference_probs(home_xg, away_xg)
 
     rows = []
